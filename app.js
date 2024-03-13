@@ -88,19 +88,19 @@ else{
 }
 //practice paper 2
 
-// let size ="s"
-// if(size=="xl"){
-//     console.log(250)
-// }
-// else if(sixe=="l"){
-//     console.log(200)
-// }
-// else if(size=="m"){
-//     console.log(100)
-// }
-// else if (size="s"){
-//     console.log(50)
-// }
+let size ="m"
+if(size=="xl"){
+    console.log(250)
+}
+else if(size=="l"){
+    console.log(200)
+}
+else if(size=="m"){
+    console.log(100)
+}
+else if (size="s"){
+    console.log(50)
+}
 //nested if-else
 
 let score= 82;
@@ -138,20 +138,64 @@ else{
 }
 //switch staementt
 
-// let colors="red"
-// switch(colors){
-//     case "red"
-//     console.log("stop");
-//     break;
-//     case "green";
-//     console.log("go")
-//     break;
-//     case "yellow";
-//     console.log("slow down")
-//     break;
+let colors="green"
+switch(colors){
+    case "red":
+    console.log("stop");
+    break;
+    case "green":
+    console.log("go")
+    break;
+    case "yellow":
+    console.log("slow down")
+    break;
+    default:
+        console.log("broken light")
 
-// }
+}
+
+
 //practice questions
+
+let days=6
+switch(days){
+    case(1):
+    console.log("monday")
+    break;
+    case(2):
+    console.log("tuesday")
+    break;
+    case(3):
+    console.log("wednesday")
+    break;
+    case(4):
+    console.log("thursday")
+    break;
+    case(5):
+    console.log("friday")
+    break;
+    case(6):
+    console.log("saturday")
+    break;
+    case(7):
+    console.log("sunday")
+    break;
+}
+//alert and prompts
+
+// alert("something is wrong")
+// alert("danger")
+// console.error("this is an error")
+// console.warn("its a warning")
+// prompt("enter your name")
+// let id= prompt("enter the id")
+// console.log(id)
+// let firstN=prompt("enter your first name")
+// let lastN=prompt("enter your last name")
+// console.log( "welcome", firstN ,lastN)
+
+//assignment questions
+//que 1
 console.log("practice questions")
 let num=90
 if (num%10==0){
@@ -161,4 +205,27 @@ else{
     console.log("bad")
 }
 
+//ques 2
+// let username=prompt("enter username")
+// let userage=prompt("enter user age")
+// alert(` ${username} is ${userage} years old`)
+
+//que3
+
+let months=4
+switch(months){
+    case(1):
+    console.log("jan, feb, march")
+break;
+case(2):
+console.log("april,may,june")
+break;
+case(3):
+console.log("july,aug,sept")
+break;
+case(4):
+console.log("oct,nov,dec")
+break;
+
+}
 
